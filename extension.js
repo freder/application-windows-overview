@@ -12,10 +12,6 @@ function getActiveWindow() {
 
 
 class Extension {
-	constructor() {
-		//
-	}
-
 	enable() {
 		// override method:
 		// only show windows from active application
