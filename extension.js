@@ -1,6 +1,7 @@
 // adapted from https://github.com/ndazeo/hide-windows/blob/master/extension.js
 const {	Meta, Shell } = imports.gi;
 const { Workspace } = imports.ui.workspace;
+const Main = imports.ui.main;
 
 
 const isOverviewWindow = Workspace.prototype._isOverviewWindow;
@@ -21,6 +22,8 @@ class Extension {
 				? isOverviewWindow(win)
 				: (activeWindow.wm_class == win.wm_class);
 		};
+
+		Main.overview.toggle();
 	}
 
 	disable() {
