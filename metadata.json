@@ -2,7 +2,7 @@
   "description": "Like Activities Overview but only showing windows of the currently active application",
   "name": "Applications Window Overview",
   "shell-version": [
-    "42"
+    "43"
   ],
   "url": "https://github.com/freder/application-windows-overview",
   "uuid": "application-windows-overview@github.freder",
